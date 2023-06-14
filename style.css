@@ -1,0 +1,504 @@
+/*
+Theme Name: Wirye
+Author: JHAK
+Version: 1.0
+*/
+
+/* 폰트 설정 */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300');
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'); */
+
+/* 나머지 CSS 스타일 작성 */
+
+body, p, li, h1, h2, h3, h4, h5, h6, a, button, input, textarea, select, span, small {
+  font-family: 'Malgeun Gothic', 'Open Sans';
+  /* font-family: 'Noto Sans KR', 'Open Sans'; */
+}
+
+p, li, h6, h5 {
+  line-height: 1.75rem !important;
+}
+
+h4, h3 {
+  line-height: 2rem !important;
+}
+
+h2, h1 {
+  line-height: 2.2rem !important;
+}
+
+/* a link 서식 없애기 */
+a {
+  text-decoration: none !important;
+}
+
+a.a-white {
+  color: white !important;
+}
+a.a-black {
+  color: #333 !important;
+}
+/* Post Meta Tags */
+span.badge.badge-success a,
+span.badge.badge-secondary a,
+span.badge.badge-warning a,
+span.badge.badge-primary a,
+span.badge.bg-purple a,
+span.badge.badge-info a,
+.post-meta a,
+span.bg-vivid-cyan-blue a,
+span.bg-blulish-gray a,
+span.bg-vivid-purple a,
+span.bg-vivid-orange a,
+span.bg-vivid-red a,
+span.bg-vivid-cyan2 a,
+span.bg-light-dark a,
+span.badge.badge-danger a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+span.bg-light a {
+  color: #777 !important;
+}
+.blulish-gray {color: #abb8c3;}
+.pale-pink {color: #f78da7; }
+.vivid-red {color: #cf2e2e; }
+.vivid-orange {color: #ff6900;}
+.vivid-amber {color: #fcb900;}
+.vivid-cyan1 {color: #7bdcb5;}
+.vivid-cyan2 {color: #00d084; }
+.pale-cyan-blue {color: #8ed1fc; }
+.vivid-cyan-blue {color: #0693e3;}
+.vivid-purple {color: #9b51e0;}
+.light-dark {color: #999;}
+.bg-blulish-gray {background-color: #abb8c3;}
+.bg-light-dark {background-color: #999;}
+.bg-pale-pink {background-color: #f78da7; }
+.bg-vivid-red {background-color: #cf2e2e; }
+.bg-vivid-orange {background-color: #ff6900;}
+.bg-vivid-amber {background-color: #fcb900;}
+.bg-vivid-cyan1 {background-color: #7bdcb5;}
+.bg-vivid-cyan2 {background-color: #00d084; }
+.bg-pale-cyan-blue {background-color: #8ed1fc; }
+.bg-vivid-cyan-blue {background-color: #0693e3;}
+.bg-vivid-purple {background-color: #9b51e0;}
+
+.my-yellow {color: #ffc501;}
+.bg-my-yellw {background-color: #ffc501;}
+.my-blue {color: #54AEFF;}
+.bg-my-blue {background-color: #54aeff;}
+.my-green {color: #40c463;}
+.bg-my-green {background-color: #40c463;}
+.my-red {color: #fa4549;}
+.bg-my-red {background-color: #fa4549;}
+
+.nav-item a span>img {
+  padding-bottom: 2px !important;
+}
+
+kbd {
+  color: #333;
+  background-color: #ddd;
+}
+/* 어드민바 겹치는 부분 해결 */
+/* .logged-in .navbar {
+  top: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .logged-in .navbar {
+    top: 46px;
+  }
+
+  #wpadminbar {
+    position: fixed;
+  }
+} */
+
+/* 블로그 타이틀 상하 공백 조절 - 덮어쓰기 */
+.section-content {
+  padding: 0 !important;
+}
+
+/* 블로그 메인 container 폭 확대 */
+@media (min-width: 1000px) {
+  .container {
+    max-width: 1180px !important;
+  }
+}
+
+/* 싱글 포스트 포스트 메타 */
+.row-post {
+  display: block !important;
+  margin-top: -20px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.post-meta {
+ border: 0px !important;
+}
+
+/* Comment Styles */
+.media.my-3 img {
+  border-radius: 50%;
+  margin-right: 1rem;
+  /* box-shadow: 0 1rem 2.5rem -0.8rem rgba(0, 0, 0, 0.56), 0 0.25rem 1.5rem rgba(0, 0, 0, 0.12), 0 0.5rem 0.75rem -0.3rem rgba(0, 0, 0, 0.2); */
+}
+blockquote {
+  font-size: 1rem !important;
+}
+.media-body p {
+  line-height: 1.2rem !important;
+}
+.media-body h6 span a{
+  color: #333 !important;
+}
+p.dco-attachment a::before {
+  content: "[첨부] " !important;
+  /* font-family: "Font Asome 5 Free"; */
+}
+.media-body .comment-respond .btn:hover {
+  background-color: #54AEFF !important;
+}
+/* p.dco-attachment a {
+  color:#0a0e42 !important;
+} */
+/* 메뉴바 조절 */
+// a.nav-link {
+//   padding-top: 20px !important;
+// }
+.navbar {
+  padding: 0 !important;
+}
+
+.myBackground {
+  /* background-image: url(./assets/images/tile.jpg); background-repeat: repeat; */
+  background-color:  rgb(255,230,0, 3%);
+}
+
+/* 작은 화면에서 마진율 조정 */
+/* .container {
+  width: 100%;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  } */
+
+/* Comment 박스 */
+#shadow-box, #shadow-box.hover {
+  /* background-color: #fffadd1f !important; */
+  /* background-color:  rgb(255,230,0, 3%) !important; */
+  border: 2px solid #ddd; /* 테두리 스타일과 색상 설정 */
+  border-radius: 5px; /* 테두리의 둥글기 설정 */
+  /* padding: 0px; 내용과 테두리 사이의 여백 설정 */
+  background-color: #f8f9fa; /* 배경색 설정 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 설정 */
+}
+
+/**************************
+*** 성과물 홈을 위한 CSS ***
+***************************/
+.front-page-container {
+  max-width: 1500px !important;
+  margin: 10px auto !important;
+  display: grid !important;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  grid-column-gap: 1rem !important;
+  grid-row-gap: 0.5rem !important;
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* padding: 16px 16px; */
+  /* justify-content: space-between; */
+}
+
+.front-page-container .list-group-item a:hover {
+  color: crimson !important;
+}
+
+.front-page-container .card h4 {
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.front-page-container .card a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+/* 헤더 메뉴 화살표 없애기 */
+.dropdown-toggle::after {
+    display: none !important;
+}
+/* 프로젝트 링크 버튼 */
+.project-list a {
+  /* color: #333 !important; */
+  color: #eee !important;
+}
+.dropdown-menu.w-75 {
+  margin-top: 0px !important;
+}
+span.author a {
+  color: #777 !important;
+}
+.nav-item.show > a.nav-link {
+  /* color: #ccc !important; */
+  color: #ccc !important;
+}
+.nav-item .dropdown-menu a.dropdown-item {
+  color: #333 !important;
+}
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: none !important;
+}
+/* 코멘트 답글 남기기 */
+.media-footer a.comment-reply-login {
+  float: right !important;
+  /* font-size: 0.9rem !important; */
+  visibility: hidden !important;
+}
+.media-footer a.comment-reply-login::after {
+  content: "댓글(로그인)" !important;
+  visibility: visible !important;
+  /* display: inline !important; */
+}
+#respond.comment-respond h4.text-center {
+  display: none;
+}
+
+/* 칼렌더 색깔, 마진 */
+.myWidget {
+  /* background-color: #f7a00d1a !important; */
+  border: 2px solid #ccc; /* 기본적인 테두리 스타일과 색상 설정 */
+  border-radius: 5px; /* 테두리의 둥글기 설정 */
+  padding: 10px; /* 내용과 테두리 사이의 여백 설정 */
+  background-color: #e9ecef36 !important; /* 배경색 설정 */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  */
+}
+.myWidget ul {
+  margin-top: 20px !important;
+}
+.myWidget li a, a.mc-date.trigger {
+  text-decoration: none !important;
+}
+.myWidget .widget-2 li {
+  list-style: none !important;
+  margin-left: -15px !important;
+}
+/* .myWidget .widget-2 li:before {
+  font-family: "Font Awesome";
+  content: '/f00c' !important;
+  margin-right: 5px !important;
+} */
+.myWidget .widget-2 li a,
+ul#recentcomments>li a {
+  color: #333 !important;
+}
+.my-calendar-header {
+  justify-content: center !important;
+}
+.mc-date-container .mc-date {
+  height: 2.5rem !important;
+}
+.my-calendar-header a {
+  background: none !important;
+}
+.card .container li {
+  line-height: 1rem !important;
+  border: 1px solid lightgray !important;
+}
+.my-calendar-table td:first-child { /* 맨 왼쪽 열에 있는 모든 셀을 선택합니다. */
+  background-color: rgba(255, 0, 0, 0.233) !important; /* 배경색을 빨간색으로 설정합니다. */
+}
+.my-calendar-table td:last-child { /* 맨 왼쪽 열에 있는 모든 셀을 선택합니다. */
+  background-color: rgba(0, 153, 255, 0.233) !important; /* 배경색을 빨간색으로 설정합니다. */
+}
+.mc-main .current-day {
+  outline: 3px solid blue !important;
+}
+.my-calendar-today span.mc-active {
+  color: blue !important;
+  font-weight: bolder !important;
+  font-size: 1.2rem !important;
+  /* text-decoration: underline !important; */
+}
+
+
+/* 헤더 메뉴가 active일때 */
+#primary-navbar ul>li.active>a {
+  color: #ffc107 !important;
+}
+#primary-navbar a.navbar-brand {
+  margin-top: 8px !important;
+}
+
+/* 아이보리 서치 스타일 */
+#primary-navbar li>form.is-search-form {
+  margin-top: 12px !important;
+  margin-bottom: 11px !important;
+  width: 15rem !important;
+}
+
+/* single-document 스타일 */
+.cat-title-group-container {
+	/* max-width: 1500px; */
+	margin: 10px auto;
+	flex-wrap: wrap;
+	position: sticky;
+	top:0px;
+	z-index: 20;
+}
+.pg-content-container {
+	/* max-width: 1500px; */
+	margin: 10px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.pg-aside {
+	width: 320px;
+	margin-right: 20px;
+	padding-left: 30px;
+	padding-right: 40px;
+}
+section.pg-content {
+	flex: 1;
+}
+.cat-title-group {
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: end;
+}
+.cat-title-group a {
+	font-size: 0.9rem;
+	letter-spacing: -1.5px;
+}
+.doc-title {
+	font-weight: 500;
+}
+li.post-attachment a {
+  text-decoration: none;
+  /* font-size: 1.2rem !important; */
+}
+.doc-list li a,
+.doc-list li {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #333;
+}
+h5.archive-doc-title a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #111;
+}
+
+
+/* index.php의 타이틀 a 색깔 제거 */
+#blog-main .card-title a {
+  color: #333 !important;
+  font-weight: 600 !important;
+  font-size: 1.3rem !important;
+}
+/* .blog-card hr:last-child {
+  display: none !important;
+} */
+
+.page-item.active .page-link {
+  background: #aaa !important;
+  border-color: #999 !important;
+}
+a.page-link  {
+  color: #aaa !important;
+}
+
+/* comment 부분 css */
+.comment .media-body p:not(.dco-attachment) {
+  padding-bottom: 15px !important;
+}
+
+// p.dco-attachment {
+//   margin-bottom: 0px !important;
+//   margin-top: 0.1rem !important;
+// }
+// .dco-attachment-gallery {
+//   margin: 0 0 1.2rem 0 !important;
+// }
+// .comment .media-body p {
+//   margin-bottom: 0.5rem !important ;
+// }
+// ul.post-attachments {
+//   display: none !important;
+// }
+// .not-show {
+//   display: none !important;
+// }
+
+
+/* reboot.css에 정의되어 있는 p 태그 margin-bottom 0으로 */
+p {
+  margin-bottom: 0 !important;
+}
+
+/* Customize Login Screen */
+
+body.login .button-primary {
+  background-color: #0693e3;
+  border: 0;
+  // border-color: scale-color(#f95738, $lightness: -10%);
+  // text-shadow: 0 -1px 1px scale-color(#f95738, $lightness: -15%), 1px 0 1px scale-color(#f95738, $lightness: -15%), 0 1px 1px scale-color(#f95738, $lightness: -15%), -1px 0 1px scale-color(#f95738, $lightness: -15%);
+  // box-shadow: 0 1px 0 scale-color(#f95738, $lightness: -20%);
+}
+
+body.login .button-primary:active,
+body.login .button-primary:focus,
+body.login .button-primary:hover {
+  background-color: #54aeff;
+  border: 0;
+  // border-color: #f95738;
+  // text-shadow: 0 -1px 1px scale-color(#f95738, $lightness: -20%), 1px 0 1px scale-color(#f95738, $lightness: -20%), 0 1px 1px scale-color(#f95738, $lightness: -20%), -1px 0 1px scale-color(#f95738, $lightness: -20%);
+  // box-shadow: 0 1px 0 scale-color(#f95738, $lightness: -25%);
+}
+
+body.login {
+  background-color: #eee;
+}
+
+.login h1 a {
+  padding-top: 6rem;
+  color: #0d3b66;
+  font-size: 4.5rem;
+  font-weight: 600;
+  background-image: none;
+  width: auto;
+  height: auto;
+  text-indent: 0;
+}
+
+.language-switcher {
+  display: none !important;
+}
+
+p#reg_passmail {
+  display: none !important;
+}
+
+#login textarea::placeholder {
+  padding: 10px !important;
+}
+
+// article 본문에 들어가는 이미지는 100% 폭으로
+article img {
+  // max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+article a.aaa {
+  // font-size: 3rem !important;
+  padding-left: 2rem !important;
+}
+// article a.aaa::before {
+//   content: '<img draggable="false" role="img" class="emoji" alt="📎" src="https://s.w.org/images/core/emoji/14.0.0/svg/1f4ce.svg">&nbsp;';
+// }
+
+

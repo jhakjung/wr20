@@ -1,0 +1,15 @@
+<!-- SECTION: Footer
+	====================================================== -->
+  <hr>
+<footer class="pt-3">
+  <div class="container text-center">
+    <h5 class="">&copy LG유플러스</h5>
+  </div>
+</footer>
+<!-- SECTION: Footer -->
+<script sr></script>
+
+<?php wp_footer(); ?>
+</body>
+
+</html>

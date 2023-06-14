@@ -259,3 +259,10 @@ function add_custom_content_before_link($content) {
   return $content;
 }
 add_filter('the_content', 'add_custom_content_before_link');
+
+// Allow .msg file upload
+function allow_msg_uploads($mime_types) {
+  $mime_types['msg'] = 'application/vnd.ms-outlook';
+  return $mime_types;
+}
+add_filter('upload_mimes', 'allow_msg_uploads');

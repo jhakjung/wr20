@@ -49,7 +49,6 @@
 
 					<?php } ?>
 
-					<?php pms_pagination(); ?>
 
 				</main>
 				<aside class="col-lg-4 mb-4">
@@ -60,6 +59,7 @@
 						<?php dynamic_sidebar('sidebar2'); ?>
 					</div>
 				</aside>
+				<?php pms_pagination(); ?>
 			</div>
 		</div>
 	</div>

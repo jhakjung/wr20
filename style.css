@@ -485,20 +485,20 @@ p#reg_passmail {
 }
 
 // article 본문에 들어가는 이미지는 100% 폭으로
-article img {
+img.custom-full-width {
   // max-width: 100%;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  // width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  // margin-left: auto;
+  // margin-right: auto;
+  margin: 1.5rem auto !important;
 }
 article a.aaa {
   // font-size: 3rem !important;
   padding-left: 2rem !important;
 }
-// article a.aaa::before {
-//   content: '<img draggable="false" role="img" class="emoji" alt="📎" src="https://s.w.org/images/core/emoji/14.0.0/svg/1f4ce.svg">&nbsp;';
-// }
 
-
+ul.pagination {
+  margin-bottom: 0.5rem !important;
+}

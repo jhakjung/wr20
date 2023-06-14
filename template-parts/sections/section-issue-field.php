@@ -94,6 +94,7 @@ if ($current_slug == 'issue-solved') {
 						<?php dynamic_sidebar('sidebar2'); ?>
 					</div>
 				</aside>
+				<?php pms_pagination(); ?>
 			</div>
     	</div>
 	</div>

@@ -9,7 +9,7 @@
 				// 현재 페이지가 index.php = 전체 게시글
 				if(is_home()) { ?>
 					<span class="text-white px-2 bg-title1 fs-3">
-						전체 게시글
+						전체 글
 					</span>
 
 				<?php
@@ -30,19 +30,19 @@
 
 				// 현재 페이지가 이슈: 해결
 				} elseif(is_page('issue-solved')) { ?>
-					<span class="title1">이슈</span>
+					<span class="text-dark v-middle-align">이슈</span>
 					<span class="badge bg-vivid-cyan2 mx-1">해결</a></span>
 					<?php issue_status_group();
 
 				// 현재 페이지가 이슈: 미해결
 				} elseif(is_page('issue-unsolved')) { ?>
-					<span class="title1">이슈</span>
+					<span class="text-dark v-middle-align">이슈</span>
 					<span class="badge bg-vivid-red mx-1">미해결</a></span>
 					<?php issue_status_group();
 
 				// 현재 페이지가 이슈: 종결
 				} elseif(is_page('issue-closed')) { ?>
-					<span class="title1">이슈</span>
+					<span class="text-dark v-middle-align">이슈</span>
 					<span class="badge badge-secondary mx-1">종결</a></span>
 					<?php issue_status_group();
 

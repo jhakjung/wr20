@@ -54,13 +54,10 @@
 						</div>
 
 					<?php } ?>
-
-
 				</main>
-				<?php
-				get_template_part('template-parts/sections/section', 'aside');
-				pms_pagination(); ?>
+				<?php get_template_part('template-parts/sections/section', 'aside'); ?>
 			</div>
+			<?php pms_pagination(); ?>
 		</div>
 	</div>
 </section>

@@ -287,16 +287,14 @@ span.author a {
 .myWidget li a, a.mc-date.trigger {
   text-decoration: none !important;
 }
-.myWidget .widget-2 li {
-  list-style: none !important;
-  margin-left: -25px !important;
-}
+
 /* .myWidget .widget-2 li:before {
   font-family: "Font Awesome";
   content: '/f00c' !important;
   margin-right: 5px !important;
 } */
 .myWidget .widget-2 li a,
+.tagcloud a,
 ul#recentcomments>li a {
   color: #333 !important;
 }
@@ -421,22 +419,9 @@ a.page-link  {
   padding-bottom: 15px !important;
 }
 
-// p.dco-attachment {
-//   margin-bottom: 0px !important;
-//   margin-top: 0.1rem !important;
-// }
-// .dco-attachment-gallery {
-//   margin: 0 0 1.2rem 0 !important;
-// }
-// .comment .media-body p {
-//   margin-bottom: 0.5rem !important ;
-// }
-// ul.post-attachments {
-//   display: none !important;
-// }
-// .not-show {
-//   display: none !important;
-// }
+.myWidget h4 {
+  text-align: center !important;
+}
 
 
 /* reboot.css에 정의되어 있는 p 태그 margin-bottom 0으로 */
@@ -503,7 +488,7 @@ img.custom-full-width {
 }
 article a.aaa {
   // font-size: 3rem !important;
-  padding-left: 2rem !important;
+  padding-left: 0.5rem !important;
 }
 
 ul.pagination {
@@ -513,4 +498,9 @@ ul.pagination {
 // 사이드바의 최신댓글
 .widget-2 h4 {
   text-align: center !important;
+}
+
+// 글자 base-ling 정렬
+.v-middle-align {
+  vertical-align: middle !important;
 }

@@ -266,3 +266,67 @@ function allow_msg_uploads($mime_types) {
   return $mime_types;
 }
 add_filter('upload_mimes', 'allow_msg_uploads');
+
+// Modify Category widget title HTML
+// function add_icon_to_category_widget_title($title, $instance, $id_base) {
+//   if ($id_base === 'categories' && is_active_widget(false, false, $id_base)) {
+//       $icon = '<i class="fas fa-folder-open"></i> '; // Font Awesome 아이콘 코드를 여기에 입력하세요.
+//       $title = '<h5 class="text-secondary text-center">' . $icon . $title . '</h5>';
+//   }
+//   return $title;
+// }
+// add_filter('widget_title', 'add_icon_to_category_widget_title', 10, 3);
+
+// Modify Tag widget title HTML
+// function add_icon_to_tag_widget_title($title, $instance, $id_base) {
+//   if ($id_base === 'tag_cloud' && is_active_widget(false, false, $id_base)) {
+//     $icon = '<i class="fas fa-tags"></i> '; // 태그 아이콘 코드를 여기에 입력하세요.
+//     $title = '<h5 class="text-secondary text-center">' . $icon . $title . '</h5>';
+//   }
+//   return $title;
+// }
+// add_filter('widget_title', 'add_icon_to_tag_widget_title', 10, 3);
+
+
+// Modify Category and Tag widget titles HTML
+function add_icon_to_widget_title($title, $instance, $id_base) {
+  if (( $id_base === 'categories' || $id_base === 'tag_cloud' ) && is_active_widget(false, false, $id_base)) {
+    $icon = '';
+
+    if ($id_base === 'categories') {
+      $icon = '<i class="fas fa-folder-open fa-sm"></i> '; // 카테고리 아이콘 코드를 여기에 입력하세요.
+    } elseif ($id_base === 'tag_cloud') {
+      $icon = '<i class="fas fa-tag fa-sm"></i> '; // 태그 아이콘 코드를 여기에 입력하세요.
+    }
+
+    $title = '<h5 class="text-dark text-center">' . $icon . $title . '</h5>';
+  }
+  return $title;
+}
+add_filter('widget_title', 'add_icon_to_widget_title', 10, 3);
+
+
+/**
+ * Custom Categories Widget Output : 오류가 있어 사용하지 않는 상태
+ */
+// function custom_categories_widget_output( $cat_args ) {
+//   $cat_args['title_li'] = '';
+//   $cat_args['echo'] = false;
+
+//   $categories = get_categories( $cat_args );
+//   $output = '';
+
+//   foreach ( $categories as $category ) {
+//       $category_link = get_category_link( $category->term_id );
+//       $category_count = $category->count;
+
+//       $output .= '<a href="' . esc_url( $category_link ) . '">' . $category->name . '(' . $category_count . ')</a>, ';
+//   }
+
+//   // Remove the trailing comma and space
+//   $output = rtrim( $output, ', ' );
+
+//   // Output the modified widget
+//   echo $output;
+// }
+// add_filter( 'widget_categories_args', 'custom_categories_widget_output' );

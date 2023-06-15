@@ -21,17 +21,20 @@ if ($current_slug == 'issue-solved') {
       		<div class="row px-4">
         		<main class="col-lg-8">
                		<?php
+					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+
 					$args = array(
 						'category_name'	=> 'issue',
 						'post_type' => 'post',
-						'posts_per_page' => -1,
+						'posts_per_page' => 5,
 						'meta_query' => array(
 							array(
 								'key' => 'issue_status',
 								'value' => $issueStatus,
 								'compare' => '='
 							)
-						)
+						),
+						'paged' => $paged // 페이지 정보 추가
 					);
 
     				$query = new WP_Query($args);
@@ -78,19 +81,17 @@ if ($current_slug == 'issue-solved') {
 					} else { ?>
 						<div id="" class="blog-card">
 							<div class="card-body pb-3">
-								<p class="card-text">분류에 해당되는 이슈가 존재하지 않습니다.</p>
+								<p class="card-text">해당되는 이슈가 존재하지 않습니다.</p>
 
 							</div> <!-- card-body -->
 						</div> <!-- blog-card -->
-					<?php } ?>
+						<?php } ?>
 
-        		</main>
-
-				<?php
-				get_template_part('template-parts/sections/section', 'aside');
-				pms_pagination(); ?>
-			</div>
-    	</div>
+					</main>
+					<?php get_template_part('template-parts/sections/section', 'aside'); ?>
+				</div>
+				<?php $query->max_num_pages > 1 ? pms_pagination($query->max_num_pages, 2) : ''; ?>
+		</div>
 	</div>
 </section>
 <!-- SECTION: Blog Main -->

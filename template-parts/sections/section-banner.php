@@ -8,8 +8,7 @@
 				<?php
 				// 현재 페이지가 index.php = 전체 게시글
 				if(is_home()) { ?>
-					<span class="light-dark fs-3">
-						<!-- <i class="fas fa-home fa-sm"></i>&nbsp;&nbsp; -->
+					<span class="text-white px-2 bg-title1 fs-3">
 						전체 게시글
 					</span>
 
@@ -21,7 +20,7 @@
 
 				// single 포스트: single.php
 				} elseif(is_single()) { ?>
-					<i class="fas fa-check-circle fa-sm"></i>&nbsp;&nbsp;
+					<i class="fas fa-check-circle fa-sm"></i>&nbsp;
 					<?php
 					echo get_the_title(); ?>
 					<?php $slug = get_post_field('post_name', get_the_ID()); ?>
@@ -31,19 +30,19 @@
 
 				// 현재 페이지가 이슈: 해결
 				} elseif(is_page('issue-solved')) { ?>
-					<i class="fas fa-folder-open fa-sm"></i>&nbsp;&nbsp;이슈
+					<span class="title1">이슈</span>
 					<span class="badge bg-vivid-cyan2 mx-1">해결</a></span>
 					<?php issue_status_group();
 
 				// 현재 페이지가 이슈: 미해결
 				} elseif(is_page('issue-unsolved')) { ?>
-					<i class="fas fa-folder-open fa-sm"></i>&nbsp;&nbsp;이슈
+					<span class="title1">이슈</span>
 					<span class="badge bg-vivid-red mx-1">미해결</a></span>
 					<?php issue_status_group();
 
 				// 현재 페이지가 이슈: 종결
 				} elseif(is_page('issue-closed')) { ?>
-					<i class="fas fa-folder-open fa-sm"></i>&nbsp;&nbsp;이슈
+					<span class="title1">이슈</span>
 					<span class="badge badge-secondary mx-1">종결</a></span>
 					<?php issue_status_group();
 

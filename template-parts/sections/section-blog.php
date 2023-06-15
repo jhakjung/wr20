@@ -14,17 +14,18 @@
 						$post_count++;
 						$slug = get_post_field('post_name', get_the_ID()); // 슬러그
 						if ($category_name == '이슈') {
-							$icon = 'text-dark fa-check-circle fa-sm';
+							$icon = '_888 fa-check-circle fa-sm';
+						} elseif($category_name == 'SOP' || $category_name == '관련자료') {
+							$icon = 'vivid-purple fa-book fa-sm';
 						} else {
-							$icon = 'text-dark fa-book fa-sm';
-						} ?>
+							$icon = 'vivid-amber fa-file fa-sm';
+						}?>
 
 						<div id="" class="blog-card">
 							<div class="card-body pb-3">
 
 								<!-- 아이콘 + 포스트 제목 + 슬러그  -->
 								<h4 class="card-title mb-1">
-									<?php  ?>
 									<i class="fas <?php echo $icon; ?>"></i>&nbsp;
 									<a class="fs-4" href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?>
 									<span class="text-muted float-right" style="font-size:75%"><?php echo '#' .$slug; ?></span>
@@ -55,15 +56,9 @@
 
 
 				</main>
-				<aside class="col-lg-4 mb-4">
-					<div class="myWidget p-4 border mb-3">
-						<?php dynamic_sidebar('sidebar1'); ?>
-					</div>
-					<div class="myWidget p-4 border">
-						<?php dynamic_sidebar('sidebar2'); ?>
-					</div>
-				</aside>
-				<?php pms_pagination(); ?>
+				<?php
+				get_template_part('template-parts/sections/section', 'aside');
+				pms_pagination(); ?>
 			</div>
 		</div>
 	</div>

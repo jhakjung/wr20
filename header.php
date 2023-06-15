@@ -62,7 +62,7 @@
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<a class="dropdown-item" href="<?php echo my_category_archive_link('sop'); ?>">SOP</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="<?php echo my_category_archive_link('related-data'); ?>">관련자료</a>
+					<a class="dropdown-item" href="<?php echo my_category_archive_link('related_data'); ?>">관련자료</a>
 					</div>
 				</li>
 

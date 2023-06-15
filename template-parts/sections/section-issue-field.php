@@ -49,7 +49,7 @@ if ($current_slug == 'issue-solved') {
 							<div class="card-body pb-3">
 
 								<h4 class="card-title mb-1">
-									<i class="fas fa-check-circle fa-sm"></i>&nbsp;
+									<i class="_888 fas fa-check-circle fa-sm"></i>&nbsp;
 									<a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a>
 									<span class="float-right" style="font-size:75%"><?php echo '#' .$slug; ?></span>
 								</h4>
@@ -86,15 +86,9 @@ if ($current_slug == 'issue-solved') {
 
         		</main>
 
-				<aside class="col-lg-4 mb-4">
-					<div class="myWidget p-4 border mb-3">
-						<?php dynamic_sidebar('sidebar1'); ?>
-					</div>
-					<div class="myWidget p-4 border">
-						<?php dynamic_sidebar('sidebar2'); ?>
-					</div>
-				</aside>
-				<?php pms_pagination(); ?>
+				<?php
+				get_template_part('template-parts/sections/section', 'aside');
+				pms_pagination(); ?>
 			</div>
     	</div>
 	</div>

@@ -31,14 +31,14 @@ function get_id_by_slug($page_slug) {
 // Archive 타이틀에서 괄호 제거
 function pms_archive_title( $title ) {
 	if ( is_category() ) {
-		$title = '<span class="light-dark">카테고리: '. single_cat_title( '', false );
+		$title = '<span class="text-white px-2 bg-title1">카테고리: '. single_cat_title( '', false ) . '</span>';
 	} elseif ( is_tag() ) {
-		$title = '<span class="light-dark">태그: '. single_tag_title( '', false );
+		$title = '<span class="text-white px-2 bg-title1">태그: '. single_tag_title( '', false ) . '</span>';
 	} elseif ( is_author() ) {
-		$title = '<span class="light-dark">작성자: '. get_the_author() . '</span>';
+		$title = '<span class="text-white px-2 bg-title1">작성자: '. get_the_author() . '</span>';
 	} elseif ( is_post_type_archive() ) {
 		$title = post_type_archive_title( '', false );
-	} elseif ( is_tax() ) { $title = single_term_title( '', false );
+	} elseif ( is_tax() ) { $title = '<span class="text-white px-2 bg-title1">'. single_term_title( '', false ) . '</span>';
 	} return $title;
 }
 add_filter( 'get_the_archive_title', 'pms_archive_title' );

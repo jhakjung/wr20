@@ -143,7 +143,7 @@ function pms_postlink() { ?>
 // 이슈상태 분류 블록
 function issue_status_group() { ?>
     <br class="d-md-none">
-		<?php $iClass = 'float-right badge mt-3 mx-1" style="font-size:45%"'; ?>
+		<?php $iClass = 'float-right badge pt-2 mt-3 mx-1" style="font-size:45%"'; ?>
     <span class="badge-secondary <?php echo $iClass; ?>"><a href="<?php echo site_url('/issue-closed'); ?>">종결</a></span>
     <span class="bg-vivid-red <?php echo $iClass; ?>"><a href="<?php echo site_url('/issue-unsolved'); ?>">미해결</a></span>
     <span class="bg-vivid-cyan2 <?php echo $iClass; ?>"><a href="<?php echo site_url('/issue-solved'); ?>">해결</a></span>

@@ -53,6 +53,7 @@ span.bg-vivid-orange a,
 span.bg-vivid-red a,
 span.bg-vivid-cyan2 a,
 span.bg-light-dark a,
+span.bg-title1 a,
 span.badge.badge-danger a {
   color: #fff !important;
   text-decoration: none !important;
@@ -60,6 +61,9 @@ span.badge.badge-danger a {
 span.bg-light a {
   color: #777 !important;
 }
+.ddd {color: #ddd;}
+.ccc {color: #ccc;}
+._888 {color: #888;}
 .blulish-gray {color: #abb8c3;}
 .pale-pink {color: #f78da7; }
 .vivid-red {color: #cf2e2e; }
@@ -71,6 +75,8 @@ span.bg-light a {
 .vivid-cyan-blue {color: #0693e3;}
 .vivid-purple {color: #9b51e0;}
 .light-dark {color: #999;}
+.title1 { color: #e39292;}
+
 .bg-blulish-gray {background-color: #abb8c3;}
 .bg-light-dark {background-color: #999;}
 .bg-pale-pink {background-color: #f78da7; }
@@ -82,6 +88,7 @@ span.bg-light a {
 .bg-pale-cyan-blue {background-color: #8ed1fc; }
 .bg-vivid-cyan-blue {background-color: #0693e3;}
 .bg-vivid-purple {background-color: #9b51e0;}
+.bg-title1 { background-color: #e39292;}
 
 .my-yellow {color: #ffc501;}
 .bg-my-yellw {background-color: #ffc501;}
@@ -282,7 +289,7 @@ span.author a {
 }
 .myWidget .widget-2 li {
   list-style: none !important;
-  margin-left: -15px !important;
+  margin-left: -25px !important;
 }
 /* .myWidget .widget-2 li:before {
   font-family: "Font Awesome";
@@ -501,4 +508,9 @@ article a.aaa {
 
 ul.pagination {
   margin-bottom: 0.5rem !important;
+}
+
+// 사이드바의 최신댓글
+.widget-2 h4 {
+  text-align: center !important;
 }

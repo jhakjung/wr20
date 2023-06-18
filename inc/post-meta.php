@@ -53,10 +53,10 @@ function pms_comment() {
 	$comment_count = get_comments_number();
 	if ($comment_count > 0) {
 		echo '<i class="text-dark text-opacity-25 fas fa-comments"></i>';
-		echo '<span class="badge bg-vivid-amber ml-1 mr-2">' . $comment_count . '</span>';
+		echo '<span class="badge bg-vivid-amber ml-1 mr-2"><a href="' . get_comments_link() . '">' . $comment_count . '</a></span>';
 	} elseif (comments_open()) {
 		echo '<i class="text-dark text-opacity-25 fas fa-comments"></i>';
-		echo '<span class="badge bg-vivid-amber ml-1 mr-2">0</span>';
+		echo '<span class="badge bg-vivid-amber ml-1 mr-2"><a href="' . get_comments_link() . '">0</a></span>';
 	}
 }
 
@@ -131,8 +131,8 @@ function general_post_meta() {
 // Post Link
 function pms_postlink() { ?>
 	<span class="float-right">
-		<?php next_post_link('%link', '<span data-toggle="tooltip" data-placement="left" title="%title"><i class="fa fa-arrow-circle-left fa-lg text-dark"></i></span>'); ?>
-		<?php previous_post_link('%link', '<span data-toggle="tooltip" data-placement="right" title="%title"><i class="fa fa-arrow-circle-right fa-lg text-dark"></i></span>'); ?>
+		<?php next_post_link('%link', '<span data-toggle="tooltip" data-placement="left" title="%title"><i class="fa fa-arrow-circle-left fa-lg text-muted"></i></span>'); ?>
+		<?php previous_post_link('%link', '<span data-toggle="tooltip" data-placement="right" title="%title"><i class="fa fa-arrow-circle-right fa-lg text-muted"></i></span>'); ?>
 	</span>
 <?php }
 
@@ -149,22 +149,35 @@ function issue_status_group() { ?>
     <span class="bg-vivid-cyan-blue <?php echo $iClass; ?>"><a href="<?php echo $category_link; ?>">전체이슈</a></span>
 <?php }
 
-// 카테고리 리스트 출력
+// 카테고리 리스트 출력 -- section-aside.php로 대체함
 function pms_category_list() { ?>
-	<ul class="d-inline px-1">
+	<ul class="d-flex flex-wrap justify-content-center px-1 pb-2">
 		<?php
+		// $excluded_category_slugs = array(
+		// 	'outgoing',
+		// 	'safety',
+		// 	'progress',
+		// 	'meeting'
+		// );
 		$categories = get_categories(array(
 			// 'hide_empty' => 0,
 			'orderby'	=> 'count',
-			'order'		=> 'ASC'
+			'order'		=> 'DESC'
 		));
 		foreach ($categories as $category) {
-			echo '<li class="float-right cat-item cat-item-' . $category->term_id . '" style="display: inline;"><span class="badge bg-vivid-cyan-blue mx-1 fw-light" style="font-size:45%"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '(' . $category->count . ')</a></span></li>';
+			// if (in_array($category->slug, $excluded_category_slugs)) {
+			// 	continue; // 제외할 카테고리는 건너뜁니다.
+			// }
+			echo '<li class="cat-item cat-item-' . $category->term_id . '" style="display: inline;"><span class="badge bg-vivid-cyan-blue mx-1 fw-light" style="font-size:80%"><a href="' . get_category_link($category->term_id) . '">' . $category->name . ' (' . $category->count . ')</a></span></li>';
 			// echo ', ';
 		}
 		?>
 	</ul>
+
 <?php }
+
+
+
 
 // Bootstrap4 Styled Pagination
 function pms_pagination($pages = '', $range = 5) {

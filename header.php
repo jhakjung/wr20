@@ -88,11 +88,11 @@
 					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					기타 <i class="fa fa-caret-down"></i></a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="page.html">안전관리</a>
-					<a class="dropdown-item" href="page.html">공정관리</a>
-					<a class="dropdown-item" href="page.html">회의록</a>
+					<a class="dropdown-item" href="<?php echo my_category_archive_link('safety'); ?>">안전관리</a>
+					<a class="dropdown-item" href="<?php echo my_category_archive_link('progress'); ?>">공정관리</a>
+					<a class="dropdown-item" href="<?php echo my_category_archive_link('meeting'); ?>">회의록</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="page.html">임시</a>
+					<a class="dropdown-item" href="<?php echo my_category_archive_link('outgoing'); ?>">기타발신</a>
 
 					</div>
 				</li>

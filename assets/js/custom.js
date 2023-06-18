@@ -1,14 +1,22 @@
-// custom.js 파일에 JavaScript 코드 추가
 jQuery(document).ready(function($) {
-    // 페이지 로딩 후 해시 태그 확인
-    if (window.location.hash === '#scroll-to-comments') {
-      scrollToLastComment();
-    }
+    var scrollToBottomIcon = $('#scroll-to-bottom');
+    var scrollToTopIcon = $('#scroll-to-top');
 
-    // 댓글 목록의 마지막 댓글로 스크롤 이동하는 함수
-    function scrollToLastComment() {
-      $('html, body').animate({
-        scrollTop: $('#comments').offset().top
-      }, 1000);
-    }
+    // 초기 설정: right-bottom 아이콘 표시, right-top 아이콘 숨김
+    scrollToBottomIcon.show();
+    scrollToTopIcon.show();
+
+    scrollToBottomIcon.click(function(e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: $(document).height() }, '800');
+    //   scrollToBottomIcon.hide();
+    //   scrollToTopIcon.show();
+    });
+
+    scrollToTopIcon.click(function(e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: 0 }, '800');
+    //   scrollToTopIcon.hide();
+    //   scrollToBottomIcon.show();
+    });
   });

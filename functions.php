@@ -15,7 +15,7 @@ function enqueue_custom_scripts() {
   wp_enqueue_style('bestmedical-style', get_stylesheet_uri());
 
   wp_enqueue_script('fa-js', '//kit.fontawesome.com/61b7275f5f.js', 'NULL', '5.9.0', false);
-  wp_enqueue_script('main-js', get_theme_file_uri('/assets/js/app.bundle.js'), 'NULL', '1.0', true);
+  // wp_enqueue_script('main-js', get_theme_file_uri('/assets/js/app.bundle.js'), 'NULL', '1.0', true);
   wp_enqueue_script('custom-js', get_theme_file_uri('/assets/js/custom.js'), array('jquery'), '1.0', true);
 }
 
@@ -284,4 +284,9 @@ function add_icon_to_widget_title($title, $instance, $id_base) {
 }
 add_filter('widget_title', 'add_icon_to_widget_title', 10, 3);
 
+// 아래로 이동
+// function pms_add_scroll_to_bottom_button() {
+//   echo '<a href="#" id="scroll-to-bottom"><i class="fas fa-chevron-down"></i></a>';
+// }
+// add_action('wp_footer', 'pms_add_scroll_to_bottom_button');
 

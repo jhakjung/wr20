@@ -509,8 +509,28 @@ ul.pagination {
   vertical-align: middle !important;
 }
 
-// slug css
-// .slug {
-//   color: #ddd !important;
-//   font-weight: 300 !important;
-// }
+.scroll-icon {
+  position: fixed;
+  z-index: 999;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-icon i {
+  font-size: 24px;
+}
+
+#scroll-to-bottom {
+  bottom: 60px;
+  right: 20px;
+}
+
+#scroll-to-top {
+  bottom: 100px;
+  right: 20px;
+}
+
+#scroll-to-bottom:hover,
+#scroll-to-top:hover {
+  opacity: 1;
+}

@@ -8,23 +8,30 @@
 				<?php
 				// 현재 페이지가 index.php = 전체 게시글
 				if(is_home()) { ?>
-					<span class="text-white px-2 bg-title1 fs-3">
+					<span class="text-secondary px-2 fs-3">
 						전체 글
 					</span>
+					<span>
+						<?php pms_category_list(); ?>
+					</span>
 
-				<?php
-				// archive 페이지: archive.php
+				<?php // archive 페이지: archive.php
 				} elseif(is_archive()) {
 					echo get_the_archive_title();
-					is_category('issue') ? issue_status_group() : '';
+					is_category('issue') ? issue_status_group() : pms_category_list();
 
 				// single 포스트: single.php
-				} elseif(is_single()) { ?>
-					<i class="fas fa-check-circle fa-sm"></i>&nbsp;
-					<?php
+				} elseif(is_single()) {
+					$category_name = get_the_category()[0]->name;
+					if ($category_name == '이슈') {
+						$icon = '<i class="fas fa-check-circle fa-sm"></i>&nbsp;';
+					} else {
+						$icon = '<i class="fas vivid-purple fa-book fa-sm"></i>&nbsp;';
+					}
+					echo $icon;
 					echo get_the_title(); ?>
 					<?php $slug = get_post_field('post_name', get_the_ID()); ?>
-					<span class="text-muted float-right" style="font-size:75%"><?php echo '#' .$slug; ?></span>
+					<span class="text-danger text-opacity-50 fw-lighter float-right" style="font-size:70%"><?php echo '#' .$slug; ?></span>
 					<?php
 					is_category('issue') ? issue_status_group() : '';
 

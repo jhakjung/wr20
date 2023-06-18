@@ -50,19 +50,35 @@
 					if(is_page('blog') || is_page_template('page-blog.php')) { echo 'active'; }
 					else { echo '';} ?>">
 					<a class="nav-link text-center" href="<?php echo site_url('/blog'); ?>">
-					자주
-					</a>
+					자주</a>
 				</li>
 
 				<!-- SOP -->
-				<li class="nav-item mx-2 dropdown <?php if((is_category(array('sop', 'related-data'))) OR (is_singular('post') AND has_category(array('sop', 'related-data')))) { echo 'active'; } ?>">
+				<li class="nav-item mx-2 dropdown
+					<?php
+					if ((is_category(array(
+					'sop',
+					'related_data',
+					'related_data-contract',
+					'related_data-tech',
+					'related_data-etc'
+					)))
+					OR (is_singular('post') AND has_category(array(
+						'sop',
+						'related_data',
+						'related_data-contract',
+						'related_data-tech',
+						'related_data-etc'
+						))))
+					{ echo 'active'; } ?>">
 					<a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					SOP
-					</a>
+					자료실 <i class="fa fa-caret-down"></i></a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<a class="dropdown-item" href="<?php echo my_category_archive_link('sop'); ?>">SOP</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="<?php echo my_category_archive_link('related_data'); ?>">관련자료</a>
+					<a class="dropdown-item" href="<?php echo my_category_archive_link('related_data-contract'); ?>">계약관련</a>
+					<a class="dropdown-item" href="<?php echo my_category_archive_link('related_data-tech'); ?>">기술관련</a>
+					<a class="dropdown-item" href="<?php echo my_category_archive_link('related_data-etc'); ?>">기타자료</a>
 					</div>
 				</li>
 
@@ -70,15 +86,11 @@
 				<li class="nav-item mx-2 dropdown">
 					<a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown" role="button"
 					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<!-- <i class="fas fa-book-open fa-lg"></i> -->
-					기타 <i class="fa fa-caret-down"></i>
-					</a>
+					기타 <i class="fa fa-caret-down"></i></a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<a class="dropdown-item" href="page.html">안전관리</a>
 					<a class="dropdown-item" href="page.html">공정관리</a>
 					<a class="dropdown-item" href="page.html">회의록</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="page.html">사진대지/도면</a>
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="page.html">임시</a>
 

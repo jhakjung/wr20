@@ -14,11 +14,9 @@
 						$post_count++;
 						$slug = get_post_field('post_name', get_the_ID()); // 슬러그
 						if ($category_name == '이슈') {
-							$icon = '_888 fa-check-circle fa-sm';
-						} elseif($category_name == 'SOP' || $category_name == '관련자료') {
-							$icon = 'vivid-purple fa-book fa-sm';
+							$icon = 'fa-check-circle fa-sm';
 						} else {
-							$icon = 'vivid-amber fa-file fa-sm';
+							$icon = 'vivid-purple fa-book fa-sm';
 						}?>
 
 						<div id="" class="blog-card">
@@ -28,7 +26,7 @@
 								<h4 class="card-title mb-1">
 									<i class="fas <?php echo $icon; ?>"></i>&nbsp;
 									<a class="fs-4" href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?>
-									<span class="text-muted float-right" style="font-size:75%"><?php echo '#' .$slug; ?></span>
+									<span class="text-danger text-opacity-50 fw-lighter float-right" style="font-size:70%"><?php echo '#' .$slug; ?></span>
 									</a>
 								</h4>
 

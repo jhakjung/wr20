@@ -54,6 +54,7 @@ span.bg-vivid-red a,
 span.bg-vivid-cyan2 a,
 span.bg-light-dark a,
 span.bg-title1 a,
+span.badge.bg-vivid-cyan-blue a,
 span.badge.badge-danger a {
   color: #fff !important;
   text-decoration: none !important;
@@ -293,9 +294,12 @@ span.author a {
   content: '/f00c' !important;
   margin-right: 5px !important;
 } */
-.myWidget .widget-2 li a,
-.tagcloud a,
-ul#recentcomments>li a {
+.myWidget .widget-2 li a
+ {
+  color: #fff !important;
+}
+ul#recentcomments>li a,
+.tagcloud a {
   color: #333 !important;
 }
 .my-calendar-header {
@@ -504,3 +508,9 @@ ul.pagination {
 .v-middle-align {
   vertical-align: middle !important;
 }
+
+// slug css
+// .slug {
+//   color: #ddd !important;
+//   font-weight: 300 !important;
+// }

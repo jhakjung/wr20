@@ -105,7 +105,7 @@ class WP_Widget_Tag_Cloud extends WP_Widget {
 			echo '<nav aria-label="' . esc_attr( $aria_label ) . '">';
 		}
 
-		echo '<div class="tagcloud pb-2">';
+		echo '<div class="tagcloud pb-2">'; // class 적용
 
 		echo $tag_cloud;
 

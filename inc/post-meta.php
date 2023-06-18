@@ -28,8 +28,11 @@ function pms_issue_state() {
 		} elseif ($issueStatus == '미해결') {
 			$strClass = "badge bg-vivid-red ml-1 mr-2";
 			$issueStatusLink = site_url('/issue-unsolved');
-		} else {
+		} elseif ($issueStatus == '종결') {
 			$strClass = "badge badge-dark ml-1 mr-2";
+			$issueStatusLink = site_url('/issue-closed');
+		} else {
+			return;
 		}
 		echo '<i class="text-dark text-opacity-25 fas fa-info"></i>';
 		echo '<span class="' . $strClass . '"><a href="' . $issueStatusLink . '">' . $issueStatus . '</a></span>';
@@ -69,13 +72,6 @@ function pms_in_charge() {
 		$author_posts_url = get_author_posts_url($author_id);
 		$display_name = get_the_author_meta('display_name', $author_id);
 		echo '<span class="text-muted author ml-1 mr-2"><a href="' . esc_url($author_posts_url) . '">' . esc_html($display_name) . '</a></span>';
-
-
-		// $first_name = get_the_author_meta('first_name', $author_id);
-		// $last_name = get_the_author_meta('last_name', $author_id);
-		// $full_name = trim($last_name) . trim($first_name);
-		// $full_name = str_replace(' ', '', $full_name);
-		// echo '<span class="text-muted author ml-1 mr-2"><a href="' . esc_url(get_author_posts_url($author_id)) . '">' . esc_html($full_name) . '</a></span>';
 	} else {
 		pms_postedby();
 	}
@@ -153,8 +149,25 @@ function issue_status_group() { ?>
     <span class="bg-vivid-cyan-blue <?php echo $iClass; ?>"><a href="<?php echo $category_link; ?>">전체이슈</a></span>
 <?php }
 
+// 카테고리 리스트 출력
+function pms_category_list() { ?>
+	<ul class="d-inline px-1">
+		<?php
+		$categories = get_categories(array(
+			// 'hide_empty' => 0,
+			'orderby'	=> 'count',
+			'order'		=> 'ASC'
+		));
+		foreach ($categories as $category) {
+			echo '<li class="float-right cat-item cat-item-' . $category->term_id . '" style="display: inline;"><span class="badge bg-vivid-cyan-blue mx-1 fw-light" style="font-size:45%"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '(' . $category->count . ')</a></span></li>';
+			// echo ', ';
+		}
+		?>
+	</ul>
+<?php }
+
 // Bootstrap4 Styled Pagination
-function pms_pagination($pages = '', $range = 2) {
+function pms_pagination($pages = '', $range = 5) {
 	$showitems = ($range * 2) + 1;
 	global $paged;
 	if(empty($paged)) $paged = 1;
@@ -176,10 +189,10 @@ function pms_pagination($pages = '', $range = 2) {
         echo '<li class="page-item disabled d-none d-lg-block"><span class="page-link">' . sprintf(__('%d 의 %d 페이지', 'bestmedical'), $paged, $pages) . '</span></li>';
 
 	 	if($paged > 2 && $paged > $range+1 && $showitems < $pages)
-			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link(1).'" aria-label="First Page">&laquo;<span class="d-none d-md-block"> First</span></a></li>';
+			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link(1).'" aria-label="First Page">&laquo;<span class="d-none d-md-block"></span></a></li>';
 
 	 	if($paged > 1 && $showitems < $pages)
-			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link($paged - 1).'" aria-label="Previous Page">&lsaquo;<span class="d-none d-md-block"> Previous</span></a></li>';
+			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link($paged - 1).'" aria-label="Previous Page">&lsaquo;<span class="d-none d-md-block"></span></a></li>';
 
 		for ($i=1; $i <= $pages; $i++)
 		{
@@ -188,10 +201,10 @@ function pms_pagination($pages = '', $range = 2) {
 		}
 
 		if ($paged < $pages && $showitems < $pages)
-			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link($paged + 1).'" aria-label="Next Page"><span class="d-none d-md-block">Next </span>&rsaquo;</a></li>';
+			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link($paged + 1).'" aria-label="Next Page"><span class="d-none d-md-block"></span>&rsaquo;</a></li>';
 
 	 	if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages)
-			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link($pages).'" aria-label="Last Page"><span class="d-none d-md-block">Last </span>&raquo;</a></li>';
+			echo '<li class="page-item"><a class="page-link" href="'.get_pagenum_link($pages).'" aria-label="Last Page"><span class="d-none d-md-block"></span>&raquo;</a></li>';
 
 	 	echo '</ul>';
         echo '</nav>';

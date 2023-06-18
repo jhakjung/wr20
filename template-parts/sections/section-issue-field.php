@@ -9,8 +9,7 @@ if ($current_slug == 'issue-solved') {
 } elseif ($current_slug == 'issue-closed') {
     $issueStatus = "종결";
 } else {
-    $issueStatus = ""; // 초기화 추가
-    echo "해당 없음";
+    $issueStatus = "";
 } ?>
 
 <!-- SECTION: Classficated Issue
@@ -52,9 +51,9 @@ if ($current_slug == 'issue-solved') {
 							<div class="card-body pb-3">
 
 								<h4 class="card-title mb-1">
-									<i class="_888 fas fa-check-circle fa-sm"></i>&nbsp;
+									<i class="fas fa-check-circle fa-sm"></i>&nbsp;
 									<a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a>
-									<span class="float-right" style="font-size:75%"><?php echo '#' .$slug; ?></span>
+									<span class="text-danger text-opacity-50 fw-lighter float-right" style="font-size:70%"><?php echo '#' .$slug; ?></span>
 								</h4>
 
 								<!-- 포스트 메타 -->

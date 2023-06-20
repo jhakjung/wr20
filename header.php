@@ -46,7 +46,6 @@
 				</li>
 
 				<!-- 자주 메뉴 -->
-<<<<<<< HEAD
 				<li class="nav-item mx-2 dropdown
 					<?php
 					if(is_page_template('page-freq.php')) {
@@ -60,13 +59,6 @@
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<a class="dropdown-item" href="<?php echo site_url('/contact'); ?>">연락처</a>
 					<a class="dropdown-item" href="<?php echo site_url('/inventory'); ?>">납품내역</a>
-=======
-				<li class="nav-item mx-2 <?php
-					if(is_page('blog') || is_page_template('page-blog.php')) { echo 'active'; }
-					else { echo '';} ?>">
-					<a class="nav-link text-center" href="<?php echo site_url('/blog'); ?>">
-					자주</a>
->>>>>>> acd37acda096b3818e4a064611f0b28b2026e81d
 				</li>
 
 				<!-- SOP -->

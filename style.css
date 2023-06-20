@@ -294,7 +294,6 @@ span.author a {
   content: '/f00c' !important;
   margin-right: 5px !important;
 } */
-<<<<<<< HEAD
 .myWidget .widget-2#categories-2 li a
  {
   color: #fff !important;
@@ -304,12 +303,6 @@ span.author a {
  {
   color: #333 !important;
 }
-=======
-.myWidget .widget-2 li a
- {
-  color: #fff !important;
-}
->>>>>>> acd37acda096b3818e4a064611f0b28b2026e81d
 ul#recentcomments>li a,
 .tagcloud a {
   color: #333 !important;
@@ -511,7 +504,6 @@ ul.pagination {
   margin-bottom: 0.5rem !important;
 }
 
-<<<<<<< HEAD
 // 사이드바의 최신 댓글
 .widget-2 h4 {
   text-align: center !important;
@@ -527,13 +519,6 @@ ul.pagination {
 .widget-2 li {
   list-style: none !important;
 }
-=======
-// 사이드바의 최신댓글
-.widget-2 h4 {
-  text-align: center !important;
-}
-
->>>>>>> acd37acda096b3818e4a064611f0b28b2026e81d
 // 글자 base-ling 정렬
 .v-middle-align {
   vertical-align: middle !important;

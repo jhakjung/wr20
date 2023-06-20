@@ -1,5 +1,4 @@
 jQuery(document).ready(function($) {
-<<<<<<< HEAD
   // 아이콘 요소 선택
   var scrollToBottomIcon = $('#scroll-to-bottom');
   var scrollToTopIcon = $('#scroll-to-top');
@@ -39,26 +38,3 @@ jQuery(document).ready(function($) {
     $('html, body').animate({ scrollTop: 0 }, '800');
   });
 });
-=======
-    var scrollToBottomIcon = $('#scroll-to-bottom');
-    var scrollToTopIcon = $('#scroll-to-top');
-
-    // 초기 설정: right-bottom 아이콘 표시, right-top 아이콘 숨김
-    scrollToBottomIcon.show();
-    scrollToTopIcon.show();
-
-    scrollToBottomIcon.click(function(e) {
-      e.preventDefault();
-      $('html, body').animate({ scrollTop: $(document).height() }, '800');
-    //   scrollToBottomIcon.hide();
-    //   scrollToTopIcon.show();
-    });
-
-    scrollToTopIcon.click(function(e) {
-      e.preventDefault();
-      $('html, body').animate({ scrollTop: 0 }, '800');
-    //   scrollToTopIcon.hide();
-    //   scrollToBottomIcon.show();
-    });
-  });
->>>>>>> acd37acda096b3818e4a064611f0b28b2026e81d

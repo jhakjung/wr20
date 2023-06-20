@@ -304,6 +304,10 @@ span.author a {
  {
   color: #333 !important;
 }
+#recent-posts-3 ul {
+  list-style: none !important;
+  padding-left: 10px !important;
+}
 ul#recentcomments>li a,
 .tagcloud a {
   color: #333 !important;

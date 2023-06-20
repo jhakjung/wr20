@@ -20,6 +20,7 @@
 					echo get_the_archive_title();
 					is_category('issue') ? issue_status_group() : ''; //pms_category_list();
 
+<<<<<<< HEAD
 				} elseif(is_page('contact')) {
 					$icon = '<i class="fas fa-address-book fa-sm"></i> &nbsp;';
 					echo $icon;
@@ -37,6 +38,15 @@
 						$icon = '<i class="fas fa-check-circle fa-sm"></i> &nbsp;';
 					} else {
 						$icon = '<i class="fas vivid-purple fa-book fa-sm"></i> &nbsp;';
+=======
+				// single 포스트: single.php
+				} elseif(is_single()) {
+					$category_name = get_the_category()[0]->name;
+					if ($category_name == '이슈') {
+						$icon = '<i class="fas fa-check-circle fa-sm"></i>&nbsp;';
+					} else {
+						$icon = '<i class="fas vivid-purple fa-book fa-sm"></i>&nbsp;';
+>>>>>>> acd37acda096b3818e4a064611f0b28b2026e81d
 					}
 					echo $icon;
 					echo get_the_title(); ?>

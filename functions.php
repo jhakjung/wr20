@@ -15,7 +15,11 @@ function enqueue_custom_scripts() {
   wp_enqueue_style('bestmedical-style', get_stylesheet_uri());
 
   wp_enqueue_script('fa-js', '//kit.fontawesome.com/61b7275f5f.js', 'NULL', '5.9.0', false);
+<<<<<<< HEAD
   wp_enqueue_script('main-js', get_theme_file_uri('/assets/js/app.bundle.js'), 'NULL', '1.0', true);
+=======
+  // wp_enqueue_script('main-js', get_theme_file_uri('/assets/js/app.bundle.js'), 'NULL', '1.0', true);
+>>>>>>> acd37acda096b3818e4a064611f0b28b2026e81d
   wp_enqueue_script('custom-js', get_theme_file_uri('/assets/js/custom.js'), array('jquery'), '1.0', true);
 }
 
@@ -269,13 +273,18 @@ add_filter('upload_mimes', 'allow_msg_uploads');
 
 // Modify Category and Tag widget titles HTML
 function add_icon_to_widget_title($title, $instance, $id_base) {
+<<<<<<< HEAD
   if (( $id_base === 'categories' || $id_base === 'tag_cloud' || $title === '최신 글' || $title === '최신 댓글' ) && is_active_widget(false, false, $id_base)) {
+=======
+  if (( $id_base === 'categories' || $id_base === 'tag_cloud' ) && is_active_widget(false, false, $id_base)) {
+>>>>>>> acd37acda096b3818e4a064611f0b28b2026e81d
     $icon = '';
 
     if ($id_base === 'categories') {
       $icon = '<i class="fas fa-folder-open fa-sm"></i> '; // 카테고리 아이콘 코드를 여기에 입력하세요.
     } elseif ($id_base === 'tag_cloud') {
       $icon = '<i class="fas fa-tag fa-sm"></i> '; // 태그 아이콘 코드를 여기에 입력하세요.
+<<<<<<< HEAD
     } elseif ($title === '최신 글') {
       $icon = '<i class="fas fa-file-alt fa-sm"></i> '; // 최신 글 아이콘 코드를 여기에 입력하세요.
     } elseif ($title === '최신 댓글') {
@@ -283,9 +292,22 @@ function add_icon_to_widget_title($title, $instance, $id_base) {
     }
 
     $title = '<h5 class="text-center">' . $icon . $title . '</h5>';
+=======
+    }
+
+    $title = '<h5 class="text-dark text-center">' . $icon . $title . '</h5>';
+>>>>>>> acd37acda096b3818e4a064611f0b28b2026e81d
   }
   return $title;
 }
 add_filter('widget_title', 'add_icon_to_widget_title', 10, 3);
 
+<<<<<<< HEAD
+=======
+// 아래로 이동
+// function pms_add_scroll_to_bottom_button() {
+//   echo '<a href="#" id="scroll-to-bottom"><i class="fas fa-chevron-down"></i></a>';
+// }
+// add_action('wp_footer', 'pms_add_scroll_to_bottom_button');
+>>>>>>> acd37acda096b3818e4a064611f0b28b2026e81d
 

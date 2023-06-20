@@ -168,7 +168,11 @@ function pms_category_list() { ?>
 			// if (in_array($category->slug, $excluded_category_slugs)) {
 			// 	continue; // 제외할 카테고리는 건너뜁니다.
 			// }
+<<<<<<< HEAD
 			echo '<li class="cat-item cat-item-' . $category->term_id . '" style="display: inline;"><span class="badge badge-secondary mx-1 fw-light" style="font-size:80%"><a href="' . get_category_link($category->term_id) . '">' . $category->name . ' (' . $category->count . ')</a></span></li>';
+=======
+			echo '<li class="cat-item cat-item-' . $category->term_id . '" style="display: inline;"><span class="badge bg-vivid-cyan-blue mx-1 fw-light" style="font-size:80%"><a href="' . get_category_link($category->term_id) . '">' . $category->name . ' (' . $category->count . ')</a></span></li>';
+>>>>>>> acd37acda096b3818e4a064611f0b28b2026e81d
 			// echo ', ';
 		}
 		?>

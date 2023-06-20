@@ -13,17 +13,10 @@
 						$category_name = get_the_category()[0]->name;
 						$post_count++;
 						$slug = get_post_field('post_name', get_the_ID()); // 슬러그
-<<<<<<< HEAD
 						if ($category_name == '이슈' || $category_name == '기타발신' || $category_name == '공정관리') {
 							$icon = 'fa-check-circle fa-sm';
 						} else {
 							$icon = 'fa-book fa-sm';
-=======
-						if ($category_name == '이슈') {
-							$icon = 'fa-check-circle fa-sm';
-						} else {
-							$icon = 'vivid-purple fa-book fa-sm';
->>>>>>> acd37acda096b3818e4a064611f0b28b2026e81d
 						}?>
 
 						<div id="" class="blog-card">

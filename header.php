@@ -11,11 +11,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<<<<<<< HEAD
 	<!-- <a id="scrolltoTop" class="text-black-50"><i class="fa fa-arrow-up"></i></a> -->
-=======
-	<a id="scrolltoTop" class="text-black-50"><i class="fa fa-arrow-up"></i></a>
->>>>>>> acd37acda096b3818e4a064611f0b28b2026e81d
 
   	<!-- SECTION: Navbar
 	====================================================== -->

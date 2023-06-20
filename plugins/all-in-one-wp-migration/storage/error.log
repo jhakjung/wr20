@@ -1,0 +1,444 @@
+Jun 12 2023 08:42:52
+{"type":8192,"message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","line":91}
+
+Jun 12 2023 08:42:54
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 12 2023 08:42:57
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 01:59:50
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 01:59:52
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 01:59:53
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 01:59:53
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 01:59:54
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 01:59:54
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 01:59:55
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 01:59:56
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:00:03
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:00:04
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:00:04
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:00:05
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:00:10
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:00:14
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:00:14
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:00:15
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:15
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:16
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:16
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:16
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:16
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:16
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:16
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:16
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:16
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:16
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:16
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:16
+{"Number":8192,"Message":"rtrim(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\xampp\\htdocs\\wordpress\\wp-includes\\formatting.php","Line":2809}
+
+Jun 13 2023 02:00:18
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:00:20
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:00:22
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:43
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:44
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:44
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:45
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:46
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:47
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:48
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:48
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:48
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:50
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:51
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:52
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:52
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:53
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:54
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:56
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:57
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:59
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:10:59
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:11:01
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:11:02
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:11:02
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:11:03
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:11:04
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:29
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:30
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:30
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:31
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:32
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:33
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:34
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:34
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:35
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:36
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:37
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:38
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:38
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:39
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:40
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:42
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:43
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:45
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:46
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:46
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:47
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:48
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:49
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 02:13:50
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:30:57
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:30:58
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:30:58
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:30:59
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:00
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:01
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:02
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:02
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:03
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:05
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:06
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:06
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:07
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:08
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:09
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:10
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:12
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:13
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:14
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:14
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:15
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:16
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:18
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:31:18
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:29
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:30
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:30
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:31
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:32
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:33
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:34
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:34
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:35
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:36
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:37
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:38
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:38
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:39
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:40
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:42
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:44
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:45
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:46
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:46
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:47
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:48
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:49
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+
+Jun 13 2023 04:56:50
+{"type":8192,"message":"Creation of dynamic property WF_Licensing::$plugin_page is deprecated","file":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-reset\\wp-reset-licensing.php","line":40}
+

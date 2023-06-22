@@ -308,6 +308,10 @@ span.author a {
   list-style: none !important;
   padding-left: 10px !important;
 }
+#recent-posts-3 li,
+#recent-comments-3 li.recentcomments {
+  font-size: 0.95rem !important;
+}
 ul#recentcomments>li a,
 .tagcloud a {
   color: #333 !important;
@@ -553,4 +557,9 @@ ul.pagination {
 #scroll-to-bottom:hover,
 #scroll-to-top:hover {
   opacity: 1;
+}
+
+#login h1 > a {
+  width: 100% !important;
+  font-size: 2.5rem !important;
 }

@@ -33,10 +33,11 @@
 				// single 포스트: single.php
 				} elseif(is_single()) {
 					$category_name = get_the_category()[0]->name;
-					if ($category_name == '이슈'  || $category_name == '기타발신' || $category_name == '공정관리') {
-						$icon = '<i class="fas fa-check-circle fa-sm"></i> &nbsp;';
+					$book_icon = array('SOP', '기술관련', '기타자료', '계약관련');
+					if (in_array($category_name, $book_icon)) {
+						$icon = '<i class="fas fa-book fa-sm"></i> &nbsp;';
 					} else {
-						$icon = '<i class="fas vivid-purple fa-book fa-sm"></i> &nbsp;';
+						$icon = '<i class="fas fa-check-circle fa-sm"></i> &nbsp;';
 					}
 					echo $icon;
 					echo get_the_title(); ?>

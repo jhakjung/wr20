@@ -100,13 +100,12 @@
 					<a class="dropdown-item" href="<?php echo my_category_archive_link('progress'); ?>">공정관리</a>
 					<a class="dropdown-item" href="<?php echo my_category_archive_link('meeting'); ?>">회의록</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="<?php echo my_category_archive_link('outgoing'); ?>">기타발신</a>
+					<a class="dropdown-item" href="<?php echo my_category_archive_link('etc'); ?>">기타문서</a>
 
 					</div>
 				</li>
 
 				<!-- 타 프로젝트 링크 -->
-				<!-- <span class="text-white text-center px-2 nav-link">|</span> -->
 				<li class="nav-item dropdown px-2 dropdown-wide d-block">
 					<a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown" role="button"
 					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

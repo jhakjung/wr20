@@ -18,7 +18,7 @@ get_header(); ?>
 
             <div class="row justify-content-center mb-4">
               <p class="lead">
-                페이지를 찾을 수 없습니다. 키워드로 검색하시겠습니까?
+                페이지를 찾을 수 없습니다. 태그로 검색하시겠습니까?
               </p>
             </div>
 

@@ -35,7 +35,7 @@ function bestmedical_comments_list($comment, $args, $depth) { ?>
           array(
             'depth'   => $depth,
             'max_depth'   => $args['max_depth'],
-            'reply_text'  => sprintf('<span class="float-right text-primary" data-toggle="tooltip" data-placement="bottom" title="댓글 달기">
+            'reply_text'  => sprintf('<span class="float-right text-primary" data-toggle="tooltip" data-placement="bottom" title="댓글 추가">
              %s</span>', esc_html__('댓글', 'bestmedical')),
           ),
           $comment->comment_ID,

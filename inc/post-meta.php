@@ -160,7 +160,7 @@ function pms_category_list() { ?>
 		// 	'meeting'
 		// );
 		$categories = get_categories(array(
-			// 'hide_empty' => 0,
+			'hide_empty' => 1,
 			'orderby'	=> 'count',
 			'order'		=> 'DESC'
 		));

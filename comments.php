@@ -34,7 +34,7 @@ if(post_password_required()) {
           <?php if(!comments_open() && get_comments_number()) {
             if(is_single()) { ?>
           <h4 class="no-comments text-center">
-            <?php esc_html_e('댓글이 없습니다.', 'bestmedical'); ?>
+            <?php esc_html_e('댓글가 없습니다.', 'bestmedical'); ?>
           </h4>
           <?php }
           } ?>

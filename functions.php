@@ -32,9 +32,9 @@ function get_id_by_slug($page_slug) {
 // Archive 타이틀에서 괄호 제거
 function pms_archive_title( $title ) {
 	if ( is_category() ) {
-		$title = '<span class="text-white px-2 bg-title1">카테고리: '. single_cat_title( '', false ) . '</span>';
+		$title = '<span class="text-white px-2 bg-title1">분류: '. single_cat_title( '', false ) . '</span>';
 	} elseif ( is_tag() ) {
-		$title = '<span class="text-white px-2 bg-title1">태그: '. single_tag_title( '', false ) . '</span>';
+		$title = '<span class="text-white px-2 bg-title1">키워드: '. single_tag_title( '', false ) . '</span>';
 	} elseif ( is_author() ) {
 		$title = '<span class="text-white px-2 bg-title1">작성자: '. get_the_author() . '</span>';
 	} elseif ( is_post_type_archive() ) {
@@ -43,6 +43,16 @@ function pms_archive_title( $title ) {
 	} return $title;
 }
 add_filter( 'get_the_archive_title', 'pms_archive_title' );
+
+//  이름 변경
+function change_category_text( $translated_text, $text, $domain ) {
+  if ( $text === '태그' ) {
+      $translated_text = '키워드';
+  }
+  return $translated_text;
+}
+add_filter( 'gettext', 'change_category_text', 20, 3 );
+
 
 // Register Widgets
 add_action('widgets_init', 'bestmedical_widget');

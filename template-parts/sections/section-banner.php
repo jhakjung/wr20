@@ -12,7 +12,7 @@
 					【 전체 글 】
 					</span>
 					<span>
-						<!-- <?php pms_category_list(); ?> -->
+						<?php echo issue_status_group(); ?>
 					</span>
 
 				<?php // archive 페이지: archive.php

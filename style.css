@@ -541,7 +541,7 @@ a.page-link {
   text-align: center !important;
 }
 
-/* reboot.css에 정의되어 있는 p 태그 margin-bottom 0으로 */
+/* reboot.css에 정의되어 있는 p 키워드 margin-bottom 0으로 */
 p {
   margin-bottom: 0 !important;
 }

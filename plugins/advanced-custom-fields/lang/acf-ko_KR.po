@@ -3136,7 +3136,7 @@ msgstr "트랙백 보내기"
 #: assets/build/js/acf-internal-post-type.js:142
 #: assets/build/js/acf-internal-post-type.js:202
 msgid "Tags"
-msgstr "태그"
+msgstr "키워드"
 
 #: includes/admin/post-types/admin-taxonomy.php:125
 #: includes/admin/views/acf-field-group/options.php:169

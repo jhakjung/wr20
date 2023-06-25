@@ -39,10 +39,10 @@ function pms_issue_state() {
 	}
 }
 
-// 태그 표시
+// 키워드 표시
 function pms_tag() {
 	$tags = get_the_tags();
-		if ($tags) { // 태그가 존재하는 경우에만 실행
+		if ($tags) { // 키워드가 존재하는 경우에만 실행
 			echo '<i class="text-dark text-opacity-25 fas fa-tag"></i>';
 			echo '<span class="badge bg-light-dark ml-1 mr-2">' . get_the_tag_list('', ', ', '') . '</span>';
 		}

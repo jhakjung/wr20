@@ -56,7 +56,7 @@ wp_reset_postdata();
                 <!-- 이슈 상태 -->
                 <i class="fa fa-exclamation"></i>
                 <span class="<?php echo $strClass; ?>"><?php the_field('issue_status'); ?></span> |
-                <!-- 태그 표시 -->
+                <!-- 키워드 표시 -->
                 <i class="fa fa-tag"></i>
                 <span class="badge badge-secondary"><?php the_tags('', '</span>, <span class="badge badge-secondary">', ''); ?></span> |
                 <!-- 댓글 수 표시 -->

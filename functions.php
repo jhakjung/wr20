@@ -44,16 +44,6 @@ function pms_archive_title( $title ) {
 }
 add_filter( 'get_the_archive_title', 'pms_archive_title' );
 
-//  이름 변경
-function change_category_text( $translated_text, $text, $domain ) {
-  if ( $text === '태그' ) {
-      $translated_text = '키워드';
-  }
-  return $translated_text;
-}
-add_filter( 'gettext', 'change_category_text', 20, 3 );
-
-
 // Register Widgets
 add_action('widgets_init', 'bestmedical_widget');
 function bestmedical_widget() {
@@ -285,7 +275,7 @@ function add_icon_to_widget_title($title, $instance, $id_base) {
     if ($id_base === 'categories') {
       $icon = '<i class="fas fa-folder-open fa-sm"></i> '; // 카테고리 아이콘 코드를 여기에 입력하세요.
     } elseif ($id_base === 'tag_cloud') {
-      $icon = '<i class="fas fa-tag fa-sm"></i> '; // 태그 아이콘 코드를 여기에 입력하세요.
+      $icon = '<i class="fas fa-tag fa-sm"></i> '; // 키워드 아이콘 코드를 여기에 입력하세요.
     } elseif ($title === '최신 글') {
       $icon = '<i class="fas fa-file-alt fa-sm"></i> '; // 최신 글 아이콘 코드를 여기에 입력하세요.
     } elseif ($title === '최신 댓글') {

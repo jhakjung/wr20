@@ -18,7 +18,9 @@
 				<?php // archive 페이지: archive.php
 				} elseif(is_archive()) {
 					echo get_the_archive_title();
-					is_category('issue') ? issue_status_group() : ''; //pms_category_list();
+					echo issue_status_group();
+
+					// is_category('issue') ? issue_status_group() : ''; pms_category_list();
 
 				} elseif(is_page('contact')) {
 					$icon = '<i class="fas fa-address-book fa-sm"></i> &nbsp;';
@@ -41,6 +43,7 @@
 					}
 					echo $icon;
 					echo get_the_title(); ?>
+
 					<?php $slug = get_post_field('post_name', get_the_ID()); ?>
 
 					<span class="float-right px-3" style="font-size:70%">

@@ -226,12 +226,12 @@ function ourLoginTitle() {
 // 가입자 등록 확장
 function custom_user_register_fields() {
   ?>
-      <p>
-          <label for="user_bio"><?php _e('사용자 소개', 'text-domain'); ?><br />
-              <textarea name="user_bio" id="user_bio" rows="5" cols="34" placeholder="관리자가 승인하기 위해서는 소속과 전화번호를 반드시 입력되어야 합니다."><?php echo (isset($_POST['user_bio'])) ? esc_textarea($_POST['user_bio']) : ''; ?></textarea>
-          </label>
-      </p>
-  <?php
+<p>
+  <label for="user_bio"><?php _e('사용자 소개', 'text-domain'); ?><br />
+    <textarea name="user_bio" id="user_bio" rows="5" cols="34" placeholder="관리자가 승인하기 위해서는 소속과 전화번호를 반드시 입력되어야 합니다."><?php echo (isset($_POST['user_bio'])) ? esc_textarea($_POST['user_bio']) : ''; ?></textarea>
+  </label>
+</p>
+<?php
   }
   add_action('register_form', 'custom_user_register_fields');
 
@@ -251,7 +251,8 @@ function custom_user_register_fields() {
       }
   }
 
-// Add the `aaa` class to the `<a>` tag
+// 원래의 기능을 비활성화하기 위해 주석 처리합니다.
+/*
 function add_custom_content_before_link($content) {
   $custom_html = '<img draggable="false" role="img" class="emoji" alt="📎" src="https://s.w.org/images/core/emoji/14.0.0/svg/1f4ce.svg">&nbsp;';
   $content = preg_replace('/(<a\b[^>]*>)/', '$1' . $custom_html, $content);
@@ -259,6 +260,17 @@ function add_custom_content_before_link($content) {
   return $content;
 }
 add_filter('the_content', 'add_custom_content_before_link');
+*/
+
+// 링크를 원래의 상태로 복원하는 함수를 정의합니다.
+function restore_custom_content_before_link($content) {
+  $custom_html = '<img draggable="false" role="img" class="emoji" alt="📎" src="https://s.w.org/images/core/emoji/14.0.0/svg/1f4ce.svg">&nbsp;';
+  $content = preg_replace('/<a class="aaa"\s+href="([^"]+)">/', '<a href="$1">', $content);
+  $content = str_replace($custom_html, '', $content);
+  return $content;
+}
+add_filter('the_content', 'restore_custom_content_before_link');
+
 
 // Allow .msg file upload
 function allow_msg_uploads($mime_types) {
@@ -288,4 +300,32 @@ function add_icon_to_widget_title($title, $instance, $id_base) {
 }
 add_filter('widget_title', 'add_icon_to_widget_title', 10, 3);
 
+// 확장자 추가 - 본문 미디어 파일
+function add_extension_to_media_link($content) {
+  $pattern = '/<a(.*?)href=["\'](.*?)["\'](.*?)>(.*?)<\/a>/i';
+  $replacement = '<a$1href="$2" $3>$4</a>';
+  $content = preg_replace_callback($pattern, function ($matches) {
+    $link_url = $matches[2];
+    $file_extension = pathinfo($link_url, PATHINFO_EXTENSION);
+    $link_text = $matches[4] . '.' . $file_extension;
+    return str_replace($matches[4], $link_text, $matches[0]);
+  }, $content);
+  return $content;
+}
+add_filter('the_content', 'add_extension_to_media_link');
+
+// 확장자 추가 - 첨부 미디어 파일
+function add_extension_to_media_title($title, $id) {
+  $attachment = get_post($id);
+
+  if ($attachment && $attachment->post_type === 'attachment') {
+    $file_url = wp_get_attachment_url($id);
+    $file_extension = pathinfo($file_url, PATHINFO_EXTENSION);
+
+    $title .= '.' . $file_extension;
+  }
+
+  return $title;
+}
+add_filter('the_title', 'add_extension_to_media_title', 10, 2);
 

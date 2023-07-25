@@ -35,7 +35,8 @@
 					if(is_category('issue') OR (is_singular('post') AND has_category('issue'))) { echo 'active'; }
 					else { echo '';} ?>">
 
-				<a class="nav-link text-center" href="<?php echo my_category_archive_link('issue'); ?>">이슈</a>
+					<a class="nav-link text-center" href="<?php echo site_url('/blog'); ?>">이슈</a>
+					<!-- <a class="nav-link text-center" href="<?php echo my_category_archive_link('issue'); ?>">이슈</a> -->
 				</li>
 
 				<!-- 성과물 메뉴 -->
@@ -106,7 +107,7 @@
 				</li>
 
 				<!-- 타 프로젝트 링크 -->
-				<li class="nav-item dropdown px-2 dropdown-wide d-block">
+				<!-- <li class="nav-item dropdown px-2 dropdown-wide d-block">
 					<a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown" role="button"
 					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					프로젝트
@@ -119,7 +120,7 @@
 							<a class="btn bg-vivid-purple mx-3" href="#">위례트램</a>
 						</div>
 					</div>
-				</li>
+				</li> -->
 				<!-- <span class="text-white text-center px-2 nav-link">|</span> -->
 
 				<li class="nav-item px-2">

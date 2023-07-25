@@ -145,8 +145,11 @@ function issue_status_group() { ?>
     <span class="bg-vivid-cyan2 <?php echo $iClass; ?>"><a href="<?php echo site_url('/issue-solved'); ?>">해결</a></span>
 	<?php
 		$category = get_category_by_slug('issue');
-		$category_link = get_category_link($category->term_id); ?>
-    <span class="bg-vivid-cyan-blue <?php echo $iClass; ?>"><a href="<?php echo $category_link; ?>">전체이슈</a></span>
+		if ($category) {
+			$category_link = get_category_link($category->term_id);
+			?>
+			<span class="bg-vivid-cyan-blue <?php echo $iClass; ?>"><a href="<?php echo $category_link; ?>">전체이슈</a></span>
+		<?php } ?>
 <?php }
 
 // 카테고리 리스트 출력 -- section-aside.php로 대체함

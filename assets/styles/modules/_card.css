@@ -1,0 +1,37 @@
+/* 카드 헤더 */
+.card {
+
+    &__header {
+        line-height: 1rem !important;
+        text-align: center !important;
+        /* color: white !important; */
+        font-size: 1.1rem !important;
+        /* background-color: #777 !important; */
+    }
+
+    &__group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*
+    &__group__tags a {
+        color: #333 !important;
+        text-decoration: none !important;
+    }
+    */
+}
+
+ul.favorite {
+    padding-left: 1.5rem !important;
+    margin-bottom: 5px !important;
+}
+
+ul.favorite > li {
+    color: #ccc !important;
+}
+
+ul.favorite a {
+    color: #555 !important;
+}

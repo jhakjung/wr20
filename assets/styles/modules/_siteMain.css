@@ -1,0 +1,57 @@
+.post-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    a {
+        /* color: $purple !important; */
+        /* color: #444 !important; */
+        color: var(--bs-gray-800)
+    }
+
+    &__slug {
+        font-size: 70%;
+        color: $red;
+        opacity: 0.5;
+        font-weight: 300;
+        float: right;
+    }
+
+    &__doc {
+        font-size: 65%;
+        color: #999 !important;
+    }
+
+    &__doc a {
+        color: #999 !important;
+    }
+
+}
+
+.post-meta {
+    .meta {
+        color: #ccc;
+        font-size: 0.95rem;
+        padding-right: 7px;
+        margin-bottom: 0px;
+
+        /*
+        .badge a {
+            color: #fff !important;
+            font-size: 0.9rem !important;
+        }
+        */
+    }
+
+}
+
+/* Paginateion CSS */
+.page-item.active .page-link {
+    background: #eee !important;
+    border-color: #ddd !important;
+  }
+a.page-link {
+    color: #aaa !important;
+}
+span.page-link {
+    color: #999 !important;
+}

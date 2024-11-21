@@ -8,11 +8,19 @@ const postCSSPlugins = [
 ]
 
 module.exports = {
-    entry: './assets/js/app.bundle.js',
+    entry: './assets/scripts/App.js',
     output: {
         filename: 'bundled.js',
         path: path.resolve(__dirname)
     },
+    // devServer: {
+    //     static: {
+    //         directory: path.join(__dirname, 'pms')
+    //     },
+    //     hot: true,
+    //     port: 3000,
+    //     liveReload: false
+    // },
     mode: 'development',
     watch: true,
     module: {

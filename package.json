@@ -1,8 +1,8 @@
 {
-  "name": "travel-site",
+  "name": "wr20",
   "version": "1.0.0",
   "scripts": {
-    "dev": "webpack serve",
+    "dev": "webpack",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -32,7 +32,11 @@
     "postcss-simple-vars": "^7.0.1",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.0",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
-  }
+    "webpack-cli": "^5.1.4"
+  },
+  "main": "webpack.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

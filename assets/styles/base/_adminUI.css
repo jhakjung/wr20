@@ -1,0 +1,33 @@
+.section-title {
+    font-size: 2em;
+}
+// #wp-admin-bar-comments { display: none !important; }
+// li#wp-admin-bar-new-content { display: none !important; }
+// #wpfooter { display: none !important; }
+
+
+
+// ,
+// #wp-admin-bar-new-content,
+//             #wp-admin-bar-top-secondary,
+//             span.order-higher-indicator,
+//             span.order-lower-indicator,
+//             span.toggle-indicator,
+//             #wpfooter,
+//             #ed_toolbar,
+//             .wp-editor-tabs,
+//             .mce-toolbar-grp,
+//             #post-status-info,
+//             #save-post, /* 임시글로 저장 버튼 숨기기 */
+//             #post-preview, /* 미리보기 버튼 숨기기 */
+//             .misc-pub-section, /* 상태, 가시성, 즉시발행 숨기기 */
+//             #minor-publishing, /* 공개 박스 하단 숨기기 */
+//             #contextual-help-link-wrap, /* 도움말 메뉴 */
+//             #screen-options-link-wrap, /* 화면 옵션 */
+//             #postimagediv, /* 특성이미지 설정 탭 숨기기 */
+//             #edit-slug-box, /* 고유주소 편집 라인 숨기기 */
+//             #category-add-toggle, /* 새 카테고리 추가 */
+//             .categorydiv #category-tabs>li,
+//             #tagsdiv-post_tag .tagcloud-link,
+//             /*.tag-checkbox-list>p */
+//             { display: none !important; }

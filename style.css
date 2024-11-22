@@ -13,13 +13,13 @@ Version: 1.0
     padding: 20px 0;
     color: #666;
 }
-.section-title {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 1.25em;
-    color: #555;
-    font-weight: 500;
-}
+// .section-title {
+//     text-align: center;
+//     margin: 20px 0;
+//     font-size: 1.25em;
+//     color: #555;
+//     font-weight: 500;
+// }
 a {
     // color: black;
     text-decoration: none;

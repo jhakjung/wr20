@@ -1,7 +1,7 @@
 <?php
 
 require get_template_directory() . '/inc/subscriber_editor_ui.php';
-// require get_template_directory() . '/inc/subscriber_redirection.php';
+require get_template_directory() . '/inc/subscriber_redirection.php';
 
 // Theme resource FIles
 function enqueue_custom_scripts()

@@ -207,6 +207,8 @@ function hide_admin_bar_comments()
         #category-add-toggle, /* 새 카테고리 추가 */
         .categorydiv #category-tabs>li,
         #tagsdiv-post_tag .tagcloud-link
-        { display: none; }</style>';
+        { display: none; }
+        #major-publishing-actions
+        { background: transparent; }</style>';
 }
 add_action('admin_head', 'hide_admin_bar_comments');

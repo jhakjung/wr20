@@ -31,7 +31,8 @@ a {
     font-weight: normal;
 }
 .card-header:hover {
-    color:yellow;
+    color:white;
+    background-color: var(--bs-dark) !important;
     font-weight: normal;
 }
 .btn-custom {

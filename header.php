@@ -25,7 +25,7 @@
             <input type="text" class="form-control" placeholder="Search...">
         </div>
         <div class="col-3 text-end">
-            <button class="btn btn-custom">
+            <button class="btn btn-secondary">
                 <a href="<?php echo admin_url('post-new.php'); ?>">작성</a>
             </button>
 

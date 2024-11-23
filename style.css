@@ -25,12 +25,13 @@ a {
     text-decoration: none;
     color: inherit;
 }
-a:hover {
-    color: black;
-}
 .success-bg {
     background-color: var(--bs-success) !important;
     color: white;
+    font-weight: normal;
+}
+.card-header:hover {
+    color:yellow;
     font-weight: normal;
 }
 .btn-custom {
@@ -42,8 +43,4 @@ a:hover {
     background-color: #fd7e14;
     color: white !important;
     border: none;
-}
-
-#wp-admin-bar-comments {
-    display: none;
 }

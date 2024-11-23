@@ -5,8 +5,7 @@ function restrict_admin_menu_for_subscribers()
 {
     if (is_admin()) {
         $user = wp_get_current_user();
-        if (in_array('subscriber', (array) $user->roles)) {
-            // 관리자 화면의 "글" 메뉴를 제외한 나머지 메뉴를 숨깁니다.
+        if (in_array('subscriber', (array) $user->roles) || in_array('editor', (array) $user->roles)) { // 구독자 또는 편집자 권한일 경우 실행할 코드
             remove_menu_page('index.php'); // 대시보드
             remove_menu_page('edit.php?post_type=page'); // 페이지
             remove_menu_page('edit-comments.php'); // 댓글
@@ -45,7 +44,7 @@ function restrict_posts_to_own($query)
         $user = wp_get_current_user();
 
         // 구독자인 경우 자신의 게시물만 표시
-        if (in_array('subscriber', $user->roles)) {
+        if (in_array('subscriber', (array) $user->roles) || in_array('editor', (array) $user->roles)) { // 구독자 또는 편집자 권한일 경우 실행할 코드
             $query->set('author', $user->ID); // 자신의 게시물만 쿼리
         }
     }
@@ -72,7 +71,7 @@ add_action('admin_menu', 'change_menu_label_for_subscriber', 999);
 function customize_tag_box_for_subscribers()
 {
     $user = wp_get_current_user();
-    if (in_array('subscriber', (array) $user->roles)) {
+    if (in_array('subscriber', (array) $user->roles) || in_array('editor', (array) $user->roles)) { // 구독자 또는 편집자 권한일 경우 실행할 코드
         echo '<style>
             /* 태그 리스트에 고정 높이와 스크롤 추가 */
             .tag-checkbox-list {
@@ -134,7 +133,7 @@ add_action('wp_ajax_get_all_tags', 'get_all_tags_callback');
 function customize_tag_box_help_text_for_subscribers()
 {
     $user = wp_get_current_user();
-    if (in_array('subscriber', (array) $user->roles)) {
+    if (in_array('subscriber', (array) $user->roles) || in_array('editor', (array) $user->roles)) { // 구독자 또는 편집자 권한일 경우 실행할 코드
         ?>
         <script type="text/javascript">
             jQuery(document).ready(function($) {
@@ -152,7 +151,7 @@ add_action('admin_head-post-new.php', 'customize_tag_box_help_text_for_subscribe
 function customize_editor_for_subscribers()
 {
     $user = wp_get_current_user();
-    if (in_array('subscriber', (array) $user->roles)) {
+    if (in_array('subscriber', (array) $user->roles) || in_array('editor', (array) $user->roles)) { // 구독자 또는 편집자 권한일 경우 실행할 코드
         echo '<style>
             /* 비주얼 탭 숨기기 */
             #content-tmce, /* 비주얼 탭 버튼 */
@@ -183,7 +182,9 @@ add_action('admin_head-post-new.php', 'customize_editor_for_subscribers');
 // 불필요한 요소 모두 숨기기
 function hide_admin_bar_comments()
 {
-    echo '<style>
+    $user = wp_get_current_user();
+    if (in_array('subscriber', (array) $user->roles) || in_array('editor', (array) $user->roles)) { // 구독자 또는 편집자 권한일 경우 실행할 코드
+        echo '<style>
         #submitdiv .postbox-header,
         #wp-admin-bar-comments,
         #wp-admin-bar-new-content,
@@ -210,5 +211,6 @@ function hide_admin_bar_comments()
         { display: none; }
         #major-publishing-actions
         { background: transparent; }</style>';
+    }
 }
 add_action('admin_head', 'hide_admin_bar_comments');

@@ -2,10 +2,12 @@
 
 require get_template_directory() . '/inc/subscriber_editor_ui.php';
 require get_template_directory() . '/inc/subscriber_redirection.php';
+require get_template_directory() . '/inc/custom_functions.php';
 
 // Theme resource FIles
 function enqueue_custom_scripts()
 {
+    wp_enqueue_style('main-css', get_theme_file_uri('/assets/styles/bootstrap.css'));
     // wp_enqueue_style('bootstrap-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css', 'NULL', '5.3.0', false);
     wp_enqueue_script('fa-js', '//kit.fontawesome.com/61b7275f5f.js', 'NULL', '5.9.0', false);
     wp_enqueue_script('main-js', get_theme_file_uri('bundled.js'), 'NULL', '1.0', true);
@@ -54,3 +56,4 @@ function allow_favicon_upload($mime_types)
     return $mime_types;
 }
 add_filter('upload_mimes', 'allow_favicon_upload');
+

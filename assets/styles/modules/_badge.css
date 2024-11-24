@@ -44,6 +44,10 @@
         background-color: $gray-300 !important;
     }
 
+    &__lighter {
+        background-color: var(--bs-light) !important;
+    }
+
     &__darkOrange {
         background-color: $darkOrange !important;
     }

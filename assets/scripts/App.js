@@ -1,2 +1,2 @@
-import '../styles/styles.css'
-
+import '../styles/styles.css';
+import { shadowRaise, shadowDown } from './shadow.js';
